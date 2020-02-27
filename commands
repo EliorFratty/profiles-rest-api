@@ -2,3 +2,8 @@ vagrant ssh
 exit
 source ~/env/bin/activate
 deactivate
+vagrant up
+vagrant ssh
+cd /vagrant
+source ~/env/bin/activate
+python manage.py runserver 0.0.0.0:8000
