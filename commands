@@ -1,0 +1,4 @@
+vagrant ssh
+exit
+source ~/env/bin/activate
+deactivate
